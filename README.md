@@ -13,7 +13,7 @@ Zdecydowałem się podjąć to wyzwanie, ponieważ chciałam doświadczyć, jak 
 
 *Na czym polega ta aplikacja? Do czego służy?*
 
-Aplikacja służy 
+Jest to baza dancyh zawodników i odgrywanych meczy, w aplikacjii można między innymi dodać nowych graczy. Pozwala również na generowanie raaportów.
 
 *Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)*
 
@@ -25,9 +25,16 @@ Aplikacja służy
   
 *Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?*
 
+Aplikacja jest "basic", nie podoba mi się aczkolwiek warto dodać, że gusta mamy różne.
+
 *Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).*
 
-- brakuje opisu niektórych przycisków
+Według mnie aplikacja nie jest zbyt intuicyjna.
+
+- brakuje opisu niektórych przycisków 
+- w trakcie dodawania zawodników jest możliwość wypełnienia formularza z 'invalid' informacjami
+- na stronie głównej można by było dodać możliwość kliknięcia w górne pola (ilość graczy, meczy, raportów, akcji) i być przekierowanym do raportów
+- po prawej stronie pole "aktywność" po kliknięciu edycja nie powinna być możliwa automatycznie tylko dopiero przy wybraniu takiej opcji
 - 
 
 *Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)*
@@ -36,8 +43,11 @@ Aplikacja służy
 - język został zmieniony na angielsku jednak w opcji dodwania gracza znajdujemy polskie słówka
 - podczas wypełniania informacji o graczu wyskakuje błąd, że nie udało się dodać gracza, jednak nie wiemy jaki bład i jakie okienko trzeba wypełnić
 - możliwość dodania gracza, który się jeszcze nie urodził
-- waga/wzrost jest możliwość wpisania ujemnych danych co jest nonsensem
+- waga/wzrost jest możliwość wpisania ujemnych danych 
 - w okienku języki można wpisać bla bla - sugeruję dodanie listy języków
+- w opcji "telefon" można dodać litery
+- w opcji dodanie link youtube oraz facebook brakuje formatu można dodać np 123, wydaje mi się, że powinno być do ograniczone do ważnego linku strony z możliwością przekierowania na daną stronę
+
 
 
 
