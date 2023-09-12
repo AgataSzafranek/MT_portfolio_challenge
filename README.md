@@ -11,11 +11,10 @@ Zdecydowałam się podjąć to wyzwanie, ponieważ chciałam doświadczyć, jak 
 
 ## Subtask 4 Testy eksploracyjne
 
-
-|-*Na czym polega ta aplikacja? Do czego służy?*-|
-
+*Na czym polega ta aplikacja? Do czego służy?*
 
 Jest to aplikacja przeznaczona do zarządzania i porządkowania informacji o piłkarzach. Oferuje różne funkcje, takie jak dodawanie nowych graczy, edytowanie profili graczy i symulowanie gier. Dodatkowo aplikacja udostępnia funkcję generowania raportów, dzięki którym użytkownicy mogą przeglądać szczegółowe dane zawodników oraz historię meczów. Użytkownicy mogą także dodawać komentarze lub opisy rozegranych meczów, usprawniając ogólną analizę i dokumentację każdego meczu.
+
 
 *Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)*
 
@@ -27,10 +26,12 @@ Lista funkcjonalności:
 - Generowanie raportów z opcją pobrania.
 - Kontakt z zespołem deweloperskim.
 - Wybór języka (polski lub angielski).
+  
 
 *Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?*
 
 Interfejs aplikacji jest łatwy w obsłudze. Choć nie jest on zbyt intuicyjny pod względem poruszania się, to jednak spełnia większość swoich funkcji co stanowi kluczowy element pozytywnego doświadczenia użytkownika. Pod względem wizualnym nie jest to aplikacja zaawansowana. Niemniej jednak, priorytetem jest zapewnienie użytkownikom wygodnego korzystania z niej.
+
 
 *Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).*
 
@@ -41,6 +42,7 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 - Korzystne byłoby ulepszenie strony głównej poprzez umożliwienie użytkownikom klikania górnych pól (liczba zawodników, mecze, raporty, akcje) i przekierowania do         odpowiedniej sekcji raportów w celu łatwiejszej nawigacji.
 - Po prawej stronie pole „aktywność” przechodzimy do edytowania, według mnie należy wyłączyć automatyczną edycję danych po kliknięciu i zmianę na wyłacznie na podgląd, umożliwiając edycję dopiero po wybraniu odpowiedniej opcji.
 - Brakuje w menu zakładki z "meczami", która pojawia się dopiero po dodaniu gracza
+
   
 *Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)*
 
