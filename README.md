@@ -10,12 +10,12 @@ Hej! Zdecydowałam się podjąć to wyzwanie, ponieważ chciałam doświadczyć,
 
 ## Subtask 4 Testy eksploracyjne
 
-### *Na czym polega ta aplikacja? Do czego służy?*
+### *Na czym polega ta aplikacja? Do czego służy*❓
 
 Jest to aplikacja przeznaczona do zarządzania i porządkowania informacji o piłkarzach. Oferuje różne funkcje, takie jak dodawanie nowych graczy, edytowanie profili graczy i symulowanie gier. Dodatkowo aplikacja udostępnia funkcję generowania raportów, dzięki którym użytkownicy mogą przeglądać szczegółowe dane zawodników. Użytkownicy mogą także dodawać komentarze lub opisy rozegranych meczów, usprawniając ogólną analizę i dokumentację każdego meczu.
 
 
-### *Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)*
+### *Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmieniła❓ (Nie bój się wyrażać opinię!)*
 
 Lista funkcjonalności:
 - Dodawanie nowych graczy.
@@ -27,12 +27,12 @@ Lista funkcjonalności:
 - Wybór języka (polski lub angielski).
   
 
-### *Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?*
+### *Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie*❓
 
-Interfejs aplikacji jest łatwy w obsłudze. Choć nie jest on zbyt intuicyjny pod względem poruszania się, to jednak spełnia większość swoich funkcji co stanowi kluczowy element pozytywnego doświadczenia użytkownika. Pod względem wizualnym nie jest to aplikacja zaawansowana. Niemniej jednak, priorytetem jest zapewnienie użytkownikom wygodnego korzystania z niej.
+Interfejs aplikacji jest łatwy w obsłudze. Choć nie jest on zbyt intuicyjny pod względem poruszania się, to jednak spełnia większość swoich funkcji co stanowi kluczowy element pozytywnego doświadczenia użytkownika. Pod względem wizualnym nie jest to aplikacja zaawansowana. 
 
 
-### *Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).*
+### *Czy aplikacja jest intuicyjna❓ (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).*
 
 Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogólnie aplikacja jest dość prosta w obsłudze. Większość elementów została zaprojektowana w sposób umożliwiający użytkownikom naturalne poruszanie się po niej bez większego wysiłku. Niemniej jednak, wprowadzenie kilku zmian mogłoby poprawić intuicyjność aplikacji. Poniżej podaje kilka przykładów, które polepszyłyby użytkowanie:
 
@@ -43,7 +43,7 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 - Niektórym przyciskom brakuje opisów, co należy dodać dla lepszego zrozumienia i dostępności dla użytkownika mam tutaj na myśli kiedy przechodzimy do zakładki mecze i odgrywamy grę, dla niektórych użytkowników przyciski mogą być niezrozumiałe.
 
 
-### *Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)*
+### *Czy zauważasz jakieś błędy❓ Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)*
 
 - Generowanie raportów- można ściągnąć tylko jedną stronę, powinna być możliwość ściągnięcia całej bazy danych (ułatwiłoby to przegląd całej bazy danych offline np w programie excel)
 - Podczas użytkowania aplikacji w języku angielskim znajdujemy słówka, które nie zostały przetłumaczone i vice versa
