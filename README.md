@@ -18,6 +18,7 @@ Jest to aplikacja przeznaczona do zarządzania i porządkowania informacji o pi�
 ### *Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmieniła❓ (Nie bój się wyrażać opinię!)*
 
 Lista funkcjonalności:
+- Logowanie/Wylogowanie
 - Dodawanie nowych graczy.
 - Dodawanie meczy.
 - Zarządzanie rozgrywkami meczów.
@@ -43,7 +44,7 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 - Niektórym przyciskom brakuje opisów, co należy dodać dla lepszego zrozumienia i dostępności dla użytkownika mam tutaj na myśli kiedy przechodzimy do zakładki mecze i odgrywamy grę, dla niektórych użytkowników przyciski mogą być niezrozumiałe.
 
 
-### *Czy zauważasz jakieś błędy❓ Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)*
+### *Czy zauważasz jakieś błędy❓ Albo coś wydaje Ci się błędem❓ Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)*
 
 - Generowanie raportów- można ściągnąć tylko jedną stronę, powinna być możliwość ściągnięcia całej bazy danych (ułatwiłoby to przegląd całej bazy danych offline np w programie excel)
 - Podczas użytkowania aplikacji w języku angielskim znajdujemy słówka, które nie zostały przetłumaczone i vice versa
@@ -56,6 +57,28 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 - Podczas kiedy przechodzimy do zakładki "mecze" opcje które są nieopisane (graj, pauza, cofnij, raport, usuń) niektóre z nich nie działają - opcja cofnij i usuń
 - Pole "kolor koszulki" tutaj można dodać numery - menu rozwijane byłoby dobrą opcją.
 - Podczas podawania numeru zawodnika można wpisać ujemną liczbę i system akceptuje dane.
+
+
+# **TASK 2**
+
+## Subtask 1 *Pisanie przypadków testowych na podstawie User Story.*
+
+👉 https://docs.google.com/spreadsheets/d/1tYkOhT4B9Y2YlzQXqc9hwPeOQer6P4BmL-0h58iHi5Q/edit#gid=0
+
+## Subtask 2 *Pisanie przypadków testowych na podstawie “własnych doświadczeń”.*
+
+👉 https://docs.google.com/spreadsheets/d/1tYkOhT4B9Y2YlzQXqc9hwPeOQer6P4BmL-0h58iHi5Q/edit#gid=722778119
+
+## Subtask 3
+
+### *Po co piszemy test case'y*❓
+
+Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne możliwości obsłużenia modułów w ramach danej aplikacji. Dobre pokrycie przypadkami testowymi oprogramowania daje nam pewność podczas testów, że nie pominęliśmy żadnej ważnej funkcjonalności.
+
+
+
+
+
 
 
 
