@@ -1,4 +1,4 @@
-# **TASK 1** 
+# **TASK 1️⃣** 
 
 ## Subtask 1 
 
@@ -59,7 +59,7 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 - Podczas podawania numeru zawodnika można wpisać ujemną liczbę i system akceptuje dane.
 
 
-# **TASK 2**
+# **TASK 2️⃣**
 
 ## Subtask 1 
 
@@ -71,7 +71,7 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 
 *Pisanie przypadków testowych na podstawie “własnych doświadczeń”.*
 
-👉https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=627617835
+👉 https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=627617835
 
 ## Subtask 3
 
@@ -83,10 +83,10 @@ Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne moż
 
 *Pisanie przypadków testowych na podstawie “własnych doświadczeń.*
 
-👉https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=803657594
+👉 https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=803657594
 
 
-# **TASK 3**
+# **TASK 3️⃣**
 
 ## Subtask 1 and 2 Testowanie według planów testów i raportowanie błędów
 
@@ -94,7 +94,9 @@ Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne moż
 
 ## Subtask 3 Testowanie według planów testów i raportowanie błędów
 
-👉 https://docs.google.com/spreadsheets/d/1MX4lhIQYoEQBU28HplEeVPpBvlNkJuf0ayz3C1pYLn0/edit?usp=sharing
+👉 https://docs.google.com/spreadsheets/d/1V-j4m7qnDQPoXOQUMJPWNt5E0gfwhbChv986K_DqNqI/edit#gid=0
+
+
 
 
 
