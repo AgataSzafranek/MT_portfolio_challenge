@@ -65,13 +65,13 @@ Według mnie, nie wszystkie funkcjonalności aplikacji są intuicyjne, ale ogól
 
 *Pisanie przypadków testowych na podstawie User Story.*
 
-👉 https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=0
+👉https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=0
 
 ## Subtask 2 
 
 *Pisanie przypadków testowych na podstawie “własnych doświadczeń”.*
 
-👉 https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=627617835
+👉https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=627617835
 
 ## Subtask 3
 
@@ -83,18 +83,21 @@ Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne moż
 
 *Pisanie przypadków testowych na podstawie “własnych doświadczeń.*
 
-👉 https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=803657594
+👉https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPjtcM/edit#gid=803657594
 
 
 # **TASK 3️⃣**
 
 ## Subtask 1 and 2 Testowanie według planów testów i raportowanie błędów
 
-👉 https://docs.google.com/spreadsheets/d/1V-j4m7qnDQPoXOQUMJPWNt5E0gfwhbChv986K_DqNqI/edit#gid=0
+👉https://docs.google.com/spreadsheets/d/1V-j4m7qnDQPoXOQUMJPWNt5E0gfwhbChv986K_DqNqI/edit#gid=1598039072
 
-## Subtask 3 Testowanie według planów testów i raportowanie błędów
+## Subtask 3 Raport z wykonanych testów
 
-👉 https://docs.google.com/spreadsheets/d/1V-j4m7qnDQPoXOQUMJPWNt5E0gfwhbChv986K_DqNqI/edit#gid=0
+👉https://docs.google.com/spreadsheets/d/1MX4lhIQYoEQBU28HplEeVPpBvlNkJuf0ayz3C1pYLn0/edit#gid=0
+
+
+
 
 
 
