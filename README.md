@@ -88,21 +88,29 @@ https://docs.google.com/spreadsheets/d/17HuADjw36U1ICTBMWDfxVv165mc_FXMnMt0lwNPj
 
 # **TASK 3️⃣**
 
-## Subtask 1 and 2 Testowanie według planów testów i raportowanie błędów 👇
+## Subtask 1 and 2 
+
+*Testowanie według planów testów i raportowanie błędów 👇*
 
 https://docs.google.com/spreadsheets/d/1V-j4m7qnDQPoXOQUMJPWNt5E0gfwhbChv986K_DqNqI/edit#gid=1598039072
 
-## Subtask 3 Raport z wykonanych testów 👇
+## Subtask 3 
+
+*Raport z wykonanych testów 👇*
 
 https://docs.google.com/spreadsheets/d/1MX4lhIQYoEQBU28HplEeVPpBvlNkJuf0ayz3C1pYLn0/edit#gid=0
 
 # **TASK 4️⃣** 
 
-## Subtask 1 and 2 Testowanie eksploracyjne i raportowanie błędów 👇
+## Subtask 1 and 2 
+
+*Testowanie eksploracyjne i raportowanie błędów 👇*
 
 Link....
 
-## Subtask 3 Aplikacja
+## Subtask 3 
+
+*Aplikacja*
 
 *Do czego służy ta aplikacja❓ Jaki jest cel tej aplikacji❓*
 
