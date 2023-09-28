@@ -106,7 +106,7 @@ https://docs.google.com/spreadsheets/d/1MX4lhIQYoEQBU28HplEeVPpBvlNkJuf0ayz3C1pY
 
 *Testowanie eksploracyjne i raportowanie błędów 👇*
 
-Link....
+-in progress 
 
 ## Subtask 3 
 
@@ -114,12 +114,15 @@ Link....
 
 *Do czego służy ta aplikacja❓ Jaki jest cel tej aplikacji❓*
 
+Jest to wszechstronna platforma, która umożliwia zarówno kupno, jak i sprzedaż szerokiej gamy towarów. Od ubrań po samochody i przedmioty kolekcjonerskie – ta aplikacja oferuje użytkownikom zróżnicowany rynek. Jedną z jego wyróżniających się funkcji jest możliwość wyszukiwania i kupowania samochodów, a także wynajmowania i kupowania nieruchomości. Oprócz tego są tutaj publikowane oferty pracy.  Dodatkowo aplikacja zapewnia wyjątkową możliwość adopcji zwierząt, promując poczucie współczucia i troski. Co więcej, użytkownicy mogą nawet znaleźć produkty dostępne za darmo, co stanowi dodatkową warstwę wygody i przystępności cenowej. Dzięki szerokiemu zasięgowi na terenie całej Polski aplikacja ta stanowi naprawdę kompleksowe rozwiązanie dla osób chcących przeprowadzać różnorodne transakcje.
 
 *Kto ma być użytkownikiem końcowym aplikacji❓*
 
+Docelową grupą odbiorców tej aplikacji są przede wszystkim osoby aktywnie zaangażowane w proces zakupu lub sprzedaży towarów. Niezależnie od tego, czy chcą dokonać zakupu, czy też sprzedać własne przedmioty, ta aplikacja zaspokaja potrzeby zarówno kupujących, jak i sprzedających. Dzięki przyjaznemu dla użytkownika interfejsowi i wszechstronnym funkcjom zapewnia bezproblemową obsługę tym, którzy planują przeprowadzać transakcje.
 
 *Czy według Ciebie aplikacja jest user friendly❓*
 
+Według mnie aplikacja ma bardzo przyjazny interfejs, dzięki czemu nawigacja i korzystanie z niej jest niezwykle łatwe. Od chwili uruchomienia aplikacji powita Cię atrakcyjny wizualnie interfejs, który jest zarówno estetyczny, jak i funkcjonalny. Układ i organizacja funkcji zostały starannie zaprojektowane, co pozwala użytkownikom na łatwe przeglądanie aplikacji i interakcję z nią. Będąc nowicjuszem na platformie, nawigacja i maksymalne wykorzystanie jej funkcji jest  niezwykle łatwe. Ogólnie rzecz biorąc, przyjazny charakter aplikacji w połączeniu z atrakcyjnym interfejsem sprawia, że ​​korzystanie z niej do kupowania i sprzedawania różnych towarów jest przyjemnością.
 
 *Jak byś usprawniła aplikację❓ Co byś w niej poprawiła❓ Czy masz jakiś pomysł na dodatkową funkcjonalność❓* 
 
