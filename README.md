@@ -106,7 +106,7 @@ https://docs.google.com/spreadsheets/d/1MX4lhIQYoEQBU28HplEeVPpBvlNkJuf0ayz3C1pY
 
 *Testowanie eksploracyjne i raportowanie błędów 👇*
 
--in progress 
+https://docs.google.com/spreadsheets/d/17oFdvnihQzpErrf5bHvCi4vVh-WnUsM1zBG2FBJ7AnQ/edit#gid=0
 
 ## Subtask 3 
 
@@ -122,12 +122,18 @@ Docelową grupą odbiorców tej aplikacji są przede wszystkim osoby aktywnie za
 
 *Czy według Ciebie aplikacja jest user friendly❓*
 
-Według mnie aplikacja ma bardzo przyjazny interfejs, dzięki czemu nawigacja i korzystanie z niej jest niezwykle łatwe. Od chwili uruchomienia aplikacji powita Cię atrakcyjny wizualnie interfejs, który jest zarówno estetyczny, jak i funkcjonalny. Układ i organizacja funkcji zostały starannie zaprojektowane, co pozwala użytkownikom na łatwe przeglądanie aplikacji i interakcję z nią. Będąc nowicjuszem na platformie, nawigacja i maksymalne wykorzystanie jej funkcji jest  niezwykle łatwe. Ogólnie rzecz biorąc, przyjazny charakter aplikacji w połączeniu z atrakcyjnym interfejsem sprawia, że ​​korzystanie z niej do kupowania i sprzedawania różnych towarów jest przyjemnością.
+Według mnie aplikacja ma bardzo przyjazny interfejs, dzięki czemu nawigacja i korzystanie z niej jest niezwykle łatwe. Od chwili uruchomienia aplikacji powita Cię atrakcyjny wizualnie interfejs, który jest zarówno estetyczny, jak i funkcjonalny. Układ i organizacja funkcji zostały starannie zaprojektowane, co pozwala użytkownikom na łatwe przeglądanie aplikacji i interakcję z nią. Będąc nowicjuszem na platformie, nawigacja i maksymalne wykorzystanie jej funkcji jest niezwykle łatwe. 
 
 *Jak byś usprawniła aplikację❓ Co byś w niej poprawiła❓ Czy masz jakiś pomysł na dodatkową funkcjonalność❓* 
 
+Według mnie, fajną opcją byłoby dodanie możliwości wyboru języka angielskiego.
 
-*Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej❓*
+*Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej❓* 
+
+- Platforma: Aplikacje internetowe są uruchamiane w przeglądarce internetowej i są dostępne na różnych platformach, takich jak Windows, macOS, Linux itp. Natomiast aplikacje natywne są specjalnie zaprojektowane i napisane dla konkretnej platformy, takiej jak Android, iOS, Windows itp.
+
+- Instalacja i aktualizacje: Aplikacje natywne muszą być zainstalowane na urządzeniu użytkownika i mogą być aktualizowane poprzez sklepy aplikacji. Aplikacje internetowe nie wymagają instalacji i mogą być dostępne bezpośrednio poprzez przeglądarkę internetową, a aktualizacje są automatycznie wprowadzane przez dewelopera.
+
 
 
 
