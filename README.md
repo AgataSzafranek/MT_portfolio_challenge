@@ -153,51 +153,61 @@ Funkcje agregujące:
 *👉Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
 
 SELECT * FROM actors ORDER BY surname ASC;
+
 <img width="245" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/6b6c1b7b-467a-4853-8ef5-de79d60db712">
 
 *👉Wyświetl film, który powstał w 2019 roku.*
 
 SELECT * FROM movies WHERE year_of_production = "2019";
+
 <img width="323" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/e9c1284e-cb8b-4361-bb01-e1fa3bfc5bb1">
 
 *👉Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
 SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999;
+
 <img width="440" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/edd3dd80-8056-4e7b-9ef6-592c2c53bf14">
 
 *👉Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$*
 
 SELECT title, price FROM movies WHERE price < "7";
+
 <img width="293" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/a8d1093e-b7a7-4ea9-97bb-0ff4d4c1ebe4">
 
 *👉Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
 SELECT * FROM actors WHERE actor_id >= 4 AND actor_id <= 7;
+
 <img width="239" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/745223d9-ebc5-40b3-bc31-688aec19e8a0">
 
 *👉Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
 
 SELECT * FROM customers WHERE customer_id IN ('2', '4', '6');
+
 <img width="348" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/d66370f9-e9c5-456b-b5d1-a3534c66a1d1">
 
 *👉Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.*
 
 SELECT * FROM customers WHERE customer_id IN ('1', '3', '5');
+
 <img width="337" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/0a456e77-0a72-4869-a7f3-261fae83ea2b">
 
 *👉Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
 
 SELECT * FROM actors WHERE name LIKE "An%"
+
 <img width="222" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/a145a6b3-19c5-40d1-a5be-11fdf52f5d3e">
 
 *👉Wyświetl dane klienta, który nie ma podanego adresu email.*
 
 SELECT * FROM customers WHERE email is NULL
+
 <img width="287" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/9f6c2d8b-a1f0-464e-b46d-f96bb090c41f">
 
 *👉Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
 
 SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
+
 <img width="357" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/dd5d4ecc-49d1-424d-a756-c9a94d555722">
 
 
