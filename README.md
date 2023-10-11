@@ -145,12 +145,23 @@ SELECT * FROM actors ORDER BY surname ASC;
 
 <img width="245" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/6b6c1b7b-467a-4853-8ef5-de79d60db712">
 
-
 *👉Wyświetl film, który powstał w 2019 roku.*
+
+SELECT * FROM movies WHERE year_of_production = "2019";
+
+<img width="323" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/e9c1284e-cb8b-4361-bb01-e1fa3bfc5bb1">
 
 *👉Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
+SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999;
+
+<img width="440" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/edd3dd80-8056-4e7b-9ef6-592c2c53bf14">
+
 *👉Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$*
+
+SELECT title, price FROM movies WHERE price < "7";
+
+<img width="293" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/a8d1093e-b7a7-4ea9-97bb-0ff4d4c1ebe4">
 
 *👉Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
