@@ -137,7 +137,7 @@ Według mnie, fajną opcją byłoby dodanie możliwości wyboru języka angielsk
 
 # **TASK 5️⃣**
 
-## Subtask 1 Krótki kurs podstaw SQL
+## Subtask 1 Krótki kurs podstaw SQL (Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.)
 
 Operatory/Zapytania
 - SELECT, USE, CREATE, ORDER BY, GO, GROUP BY, BETWEEN, IN, WHERE, AND, ON, FROM, LIKE, =, >, <, AS, IS NOT    
@@ -152,64 +152,157 @@ Funkcje agregujące:
 
 *👉Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
 
-SELECT * FROM actors ORDER BY surname ASC;
-
+SELECT * 
+FROM actors 
+ORDER BY surname ASC;
 <img width="245" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/6b6c1b7b-467a-4853-8ef5-de79d60db712">
 
 *👉Wyświetl film, który powstał w 2019 roku.*
 
-SELECT * FROM movies WHERE year_of_production = "2019";
-
+SELECT * 
+FROM movies 
+WHERE year_of_production = "2019";
 <img width="323" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/e9c1284e-cb8b-4361-bb01-e1fa3bfc5bb1">
 
 *👉Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
-SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999;
-
+SELECT * 
+FROM movies 
+WHERE year_of_production BETWEEN 1900 AND 1999;
 <img width="440" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/edd3dd80-8056-4e7b-9ef6-592c2c53bf14">
 
 *👉Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$*
 
-SELECT title, price FROM movies WHERE price < "7";
-
+SELECT title, price 
+FROM movies 
+WHERE price < "7";
 <img width="293" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/a8d1093e-b7a7-4ea9-97bb-0ff4d4c1ebe4">
 
 *👉Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
-SELECT * FROM actors WHERE actor_id >= 4 AND actor_id <= 7;
-
+SELECT * 
+FROM actors 
+WHERE actor_id >= 4 AND actor_id <= 7;
 <img width="239" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/745223d9-ebc5-40b3-bc31-688aec19e8a0">
 
 *👉Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
 
-SELECT * FROM customers WHERE customer_id IN ('2', '4', '6');
-
+SELECT * 
+FROM customers 
+WHERE customer_id IN ('2', '4', '6');
 <img width="348" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/d66370f9-e9c5-456b-b5d1-a3534c66a1d1">
 
 *👉Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.*
 
-SELECT * FROM customers WHERE customer_id IN ('1', '3', '5');
-
+SELECT * 
+FROM customers 
+WHERE customer_id IN ('1', '3', '5');
 <img width="337" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/0a456e77-0a72-4869-a7f3-261fae83ea2b">
 
 *👉Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
 
-SELECT * FROM actors WHERE name LIKE "An%"
-
+SELECT * 
+FROM actors 
+WHERE name LIKE "An%"
 <img width="222" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/a145a6b3-19c5-40d1-a5be-11fdf52f5d3e">
 
 *👉Wyświetl dane klienta, który nie ma podanego adresu email.*
 
-SELECT * FROM customers WHERE email is NULL
-
+SELECT * 
+FROM customers 
+WHERE email IS NULL
 <img width="287" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/9f6c2d8b-a1f0-464e-b46d-f96bb090c41f">
 
 *👉Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
 
-SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
-
+SELECT * 
+FROM movies 
+WHERE price > 9 AND movie_id BETWEEN 2 AND 8
 <img width="357" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/dd5d4ecc-49d1-424d-a756-c9a94d555722">
 
+# **TASK 6️⃣**
+
+## Subtask 1  SQL- Kilka zadań na rozgrzewkę (kontynuacja)
+
+*👉Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈*
+
+UPDATE customers
+SET surname = 'Miler'
+WHERE customer_id = 3
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/8d799632-d04c-4a39-910d-06ed51df8e9d)
+
+*👉Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.*
+
+SELECT customers.name, customers.email
+FROM customers
+INNER JOIN sale ON customers.customer_id = sale.customer_id
+WHERE sale.movie_id = 4
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/c7cf6041-ed9e-411f-8aa9-9fe51f73f3e3)
+
+*👉Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com*
+
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE customer_id = 4
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/45f6af55-1ecc-4b8f-a28d-856c1334fde9)
+
+*👉Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).*
+
+SELECT customers.name, customers.surname, movies.title
+FROM customers
+INNER JOIN sale ON customers.customer_id = sale.customer_id
+INNER JOIN movies ON movies.movie_id = sale.movie_id;
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/4d3667fb-087a-4921-8dfc-88bcdbcf44a1)
+
+*👉W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag*
+
+ALTER TABLE customers
+ADD pseudonym char(3);
+UPDATE customers SET pseudonym = CONCAT(LEFT(customers.name, 2), RIGHT(customers.surname, 1))
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/a4c864c4-9431-4cfe-8c87-cd1b9d92f47f)
+
+*👉Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
+
+SELECT DISTINCT movies.title
+FROM movies
+INNER JOIN sale ON sale.movie_id=movies.movie_id
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/d8ba3064-3b5c-44e5-8196-bb2df7a60bdb)
+
+*👉Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)*
+
+SELECT name FROM customers
+UNION
+SELECT name FROM actors
+ORDER BY name ASC
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/21fdf4fe-a490-43bc-898f-456a06e3bac9)
+
+*👉Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).*
+
+UPDATE movies
+SET price = price + 2.5
+WHERE movies.year_of_production>2000
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/529abbf7-5860-4807-aa0e-2d6a6acf0b39)
+
+*👉Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał*
+
+SELECT actors.name, actors.surname, movies.title
+FROM actors
+INNER JOIN cast ON cast.actor_id = actors.actor_id
+INNER JOIN movies ON movies.movie_id = cast.movie_id
+WHERE actors.actor_id = 4
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/288ca305-a651-4e94-8ff3-d788bc9dd917)
+
+*👉A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa*
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonym)
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
+![image](https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/03ea5c3e-c768-46a2-9a7d-9bf22f0880e5)
+
+## Subtask 2 TEST
+
+http://getistqb.com/
+
+<img width="480" alt="image" src="https://github.com/AgataSzafranek/challenge_portfolio_agata/assets/142822653/7cbad5c4-6f1d-402f-b84e-60523fa4f9e5">
 
 
 
