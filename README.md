@@ -4,7 +4,7 @@
 
 9/10
 
-## Subtask 3 👋
+## Subtask 3 👋 [About me](https://github.com/AgataSzafranek/AgataSzafranek)
 
 Hej! Zdecydowałam się podjąć to wyzwanie, ponieważ chciałam doświadczyć, jak wiedzę teoretyczną można zastosować w praktyce. Byłam też bardzo ciekawa, czy moje dotychczasowe umiejętności sprawdzą się w roli testera manualnego. Zawsze fascynowało mnie nowe oprogramowanie i uwielbiam odkrywać, jak ono działa. Wydaje mi się również, że branża IT rozwija się cały czas, co oznacza że trzeba się rozwijać razem z nią i na pewno będzie to ekscytujące. Mam nadzieję, że to wyzwanie pomoże mi dowiedzieć się nieco więcej o tej roli, pozwoli mi ocenić i rozwinąć moje umiejętności oraz poprowadzi mnie we właściwym kierunku w mojej nowej karierze.
 
